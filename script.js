@@ -4,6 +4,6 @@ function updateSize() {
 	const sizeInfo=document.getElementById("sizeInfo");
 	const w= window.innerWidth;
 	const h=window.innerHeight;
-	sizeInfo.innerHTML=`<h1>Width:${w} and Heigth:${h}</h>`
+	sizeInfo.innerHTML=`<h1>Width:${w} and Height:${h}</h>`
 // document.getElementById('sizeInfo').innerHTML="<h1>Width:"+w+" and Height:"+h+"</h1>";
 }
